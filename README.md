@@ -113,7 +113,7 @@ using the following command:
 nroff -man doc/vtree.1 | less
 </pre>
 
-  > :nerd:  Since time immemorial, Unix `man` pages have been written in
+  > Since time immemorial, Unix `man` pages have been written in
   > a typesetting language called `roff` (short for "run-off").
   > The `nroff` program processes `roff` source and produces text formatted
   > for reading in a terminal window.
@@ -168,7 +168,7 @@ The `tests` directory contains C source code (in file `hw2_tests.c`) for some
 Criterion tests Eugene Stark have supplied.
 The subdirectory `tests/rsrc` contains data files that are used by the tests.
 
-# present Command Line Arguments
+# Present Command Line Arguments
 
 The command line arguments and expected operation of the program are described
 by the following "Usage" message, which is printed within `vtree_main()` in `vtree.c`:
@@ -216,7 +216,7 @@ even if these subdirectories are not shown due to their being beyond the horizon
 with the `MEMORY_BASED` compilation option.  The `-VV` option also shows information about
 the command-line options that were supplied when the program was run.
 
-# Part 2: Adding Features
+# Part 2: Added Features
 
 The original program uses `getopt()` to do options processing, but it only understands
 traditional, single-character options.
