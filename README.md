@@ -238,6 +238,7 @@ In addition, I also added the following new option:
 
    - `--no-follow-symlinks` as equivalent to `-l`
 
+
     This option is only be available if the program was compiled with the `LSTAT`
   preprocessor variable defined.  It's effect is to cause the program **not** to
     follow symbolic links when they are encountered, as opposed to the default behavior,
