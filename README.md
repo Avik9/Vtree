@@ -1,4 +1,4 @@
-# Homework 2 Debugging and Fixing - CSE 320 - Spring 2020
+# Adaptation of Vtree
 #### Avik Kadakia and Eugene Stark
 
 # Introduction
@@ -239,10 +239,10 @@ In addition, I also added the following new option:
    - `--no-follow-symlinks` as equivalent to `-l`
 
     This option is only be available if the program was compiled with the `LSTAT`
-	  preprocessor variable defined.  It's effect is to cause the program **not** to
+  preprocessor variable defined.  It's effect is to cause the program **not** to
     follow symbolic links when they are encountered, as opposed to the default behavior,
-	  which is to follow symbolic links.  In addition, the existence of the option will
-	  be reported in the `Usage` message.
+	which is to follow symbolic links.  In addition, the existence of the option will
+	be reported in the `Usage` message.
     If the program was not compiled with `LSTAT` defined, then this option is illegal
     and is not be mentioned in the `Usage` message.
 
